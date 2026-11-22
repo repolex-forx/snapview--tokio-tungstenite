@@ -224,7 +224,9 @@
           "source": "lsp",
           "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.34/src/waker_ref.rs"
         }
-      ]
+      ],
+      "repolex": "aggregate/repolex/4994a078037a18a9347b8cf49291a5031d63d9e0/chunk-001.nq.gz",
+      "dep": "dep/4994a078037a18a9347b8cf49291a5031d63d9e0.nq.gz"
     }
   ],
   "commit": "commit/commit.nq.gz",
