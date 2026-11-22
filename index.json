@@ -1,0 +1,11 @@
+{
+  "org": "snapview",
+  "repo": "tokio-tungstenite",
+  "versions": [
+    {
+      "commit": "4994a078037a18a9347b8cf49291a5031d63d9e0",
+      "tag": "v0.30.0",
+      "parsed_at": "2026-11-22T14:41:21.735003+00:00"
+    }
+  ]
+}
