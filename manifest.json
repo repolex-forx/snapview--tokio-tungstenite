@@ -38,6 +38,192 @@
       ],
       "ast": [
         "aggregate/ast/4994a078037a18a9347b8cf49291a5031d63d9e0/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/4994a078037a18a9347b8cf49291a5031d63d9e0.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "log",
+          "ecosystem": "CARGO",
+          "version": "0.4.17",
+          "githubOrg": "rust-lang",
+          "githubRepo": "log",
+          "githubCommit": "7fb28c36c7a418912612ab37ab49bd4ca1a3a7f5",
+          "githubTag": "0.4.17",
+          "githubUrl": "https://github.com/rust-lang/log",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures-util",
+          "ecosystem": "CARGO",
+          "version": "0.3.28",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1685f8bdabb8e7f007610f3494425aeabf28117d",
+          "githubTag": "0.3.28",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio",
+          "ecosystem": "CARGO",
+          "version": "1.0.0",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tokio",
+          "githubCommit": "a66017f04985f5e7b7cb981e370e78a7291a5537",
+          "githubTag": "tokio-1.0.0",
+          "githubUrl": "https://github.com/tokio-rs/tokio",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tungstenite",
+          "ecosystem": "CARGO",
+          "version": "0.30.0",
+          "githubOrg": "snapview",
+          "githubRepo": "tungstenite-rs",
+          "githubCommit": "7f4aeaf0944992c5664c8fb8e0d54577c7e18020",
+          "githubTag": "v0.30.0",
+          "githubUrl": "https://github.com/snapview/tungstenite-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustls",
+          "ecosystem": "CARGO",
+          "version": "0.23.0",
+          "githubOrg": "rustls",
+          "githubRepo": "rustls",
+          "githubUrl": "https://github.com/rustls/rustls",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustls-pki-types",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "rustls",
+          "githubRepo": "pki-types",
+          "githubUrl": "https://github.com/rustls/pki-types",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "rustls-native-certs",
+          "ecosystem": "CARGO",
+          "version": "0.8.0",
+          "githubOrg": "rustls",
+          "githubRepo": "rustls-native-certs",
+          "githubUrl": "https://github.com/rustls/rustls-native-certs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-native-tls",
+          "ecosystem": "CARGO",
+          "version": "0.3.1",
+          "githubOrg": "tokio-rs",
+          "githubRepo": "tls",
+          "githubUrl": "https://github.com/tokio-rs/tls",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "tokio-rustls",
+          "ecosystem": "CARGO",
+          "version": "0.26.0",
+          "githubOrg": "rustls",
+          "githubRepo": "tokio-rustls",
+          "githubUrl": "https://github.com/rustls/tokio-rustls",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "webpki-roots",
+          "ecosystem": "CARGO",
+          "version": "0.26.0",
+          "githubOrg": "rustls",
+          "githubRepo": "webpki-roots",
+          "githubUrl": "https://github.com/rustls/webpki-roots",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "futures-channel",
+          "ecosystem": "CARGO",
+          "version": "0.3.28",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "1685f8bdabb8e7f007610f3494425aeabf28117d",
+          "githubTag": "0.3.28",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "hyper",
+          "ecosystem": "CARGO",
+          "version": "1.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "hyper",
+          "githubUrl": "https://github.com/hyperium/hyper",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "hyper-util",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "hyperium",
+          "githubRepo": "hyper-util",
+          "githubUrl": "https://github.com/hyperium/hyper-util",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http-body-util",
+          "ecosystem": "CARGO",
+          "version": "0.1",
+          "githubOrg": "hyperium",
+          "githubRepo": "http-body",
+          "githubUrl": "https://github.com/hyperium/http-body",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "env_logger",
+          "ecosystem": "CARGO",
+          "version": "0.10.0",
+          "githubOrg": "rust-cli",
+          "githubRepo": "env_logger",
+          "githubCommit": "ff029fa8b6258ed926134f51d38ee85ebd553c35",
+          "githubTag": "v0.10.0",
+          "githubUrl": "https://github.com/rust-cli/env_logger",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "http",
+          "ecosystem": "CARGO",
+          "version": "1.5.0",
+          "githubOrg": "hyperium",
+          "githubRepo": "http",
+          "githubCommit": "16fc9a7b840c2181e7f8b37397c107b0ffcd050d",
+          "githubTag": "v1.5.0",
+          "githubUrl": "https://github.com/hyperium/http",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/http-1.5.0/src/header/map.rs"
+        },
+        {
+          "packageName": "futures-core",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-core-0.3.34/src/task/poll.rs"
+        },
+        {
+          "packageName": "futures-task",
+          "ecosystem": "CARGO",
+          "version": "0.3.34",
+          "githubOrg": "rust-lang",
+          "githubRepo": "futures-rs",
+          "githubCommit": "705e6b5c0f06535b1aac1cb1989a172b3d45be8c",
+          "githubTag": "0.3.34",
+          "githubUrl": "https://github.com/rust-lang/futures-rs",
+          "source": "lsp",
+          "install_path": "/home/runner/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/futures-task-0.3.34/src/waker_ref.rs"
+        }
       ]
     }
   ],
